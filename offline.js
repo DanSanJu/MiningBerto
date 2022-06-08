@@ -1,0 +1,31 @@
+﻿{
+	"version": 1654700249,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-3.4.1.min.js",
+		"offlineClient.js",
+		"images/tiledbackground.png",
+		"images/tilemapquebravel.png",
+		"images/aahumberto-sheet0.png",
+		"images/aalava-sheet0.png",
+		"images/aamonstro-sheet0.png",
+		"images/aasensor-sheet0.png",
+		"images/aaalvo-sheet0.png",
+		"images/fundoinicio-sheet0.png",
+		"images/zzbotãoplay-sheet0.png",
+		"images/creditos-sheet0.png",
+		"images/imageasset-sheet0.png",
+		"images/gameover-sheet0.png",
+		"images/zzmenu-sheet0.png",
+		"images/aadiamante-sheet0.png",
+		"images/tiledbackground2.png",
+		"images/fundofinal.png",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
