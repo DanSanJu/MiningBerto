@@ -26657,15 +26657,15 @@ cr.behaviors.solid = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio,
 	cr.plugins_.Browser,
-	cr.plugins_.Keyboard,
-	cr.plugins_.gamepad,
 	cr.plugins_.Mouse,
+	cr.plugins_.gamepad,
+	cr.plugins_.Keyboard,
+	cr.plugins_.WebStorage,
+	cr.plugins_.Text,
 	cr.plugins_.Sprite,
 	cr.plugins_.TiledBg,
-	cr.plugins_.Touch,
-	cr.plugins_.Text,
-	cr.plugins_.WebStorage,
 	cr.plugins_.Tilemap,
+	cr.plugins_.Touch,
 	cr.behaviors.solid,
 	cr.behaviors.Platform,
 	cr.behaviors.bound,
@@ -26706,6 +26706,9 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.AddVar,
 	cr.plugins_.Text.prototype.acts.SetText,
 	cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
-	cr.system_object.prototype.acts.GoToLayout
+	cr.system_object.prototype.acts.GoToLayout,
+	cr.plugins_.Audio.prototype.cnds.IsTagPlaying,
+	cr.plugins_.Audio.prototype.acts.StopAll,
+	cr.plugins_.Audio.prototype.acts.Play
 ];};
 
